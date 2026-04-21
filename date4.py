@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 
 now = datetime.now()
-# Thêm 5 giây
 new_time = now + timedelta(seconds=5)
 
 print(f"\nThời gian hiện tại: {now.strftime('%H:%M:%S')}")
