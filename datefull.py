@@ -1,9 +1,7 @@
 from datetime import datetime, date, timedelta
 import math
 
-# ==========================================================
 # i. Viết chương trình in ra các thông tin thời gian hiện tại
-# ==========================================================
 print("--- CÂU I: THÔNG TIN HIỆN TẠI ---")
 bay_gio = datetime.now()
 
